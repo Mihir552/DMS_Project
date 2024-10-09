@@ -1,0 +1,6 @@
+@DemandMgmt.Presentation_HostAddress = http://localhost:5296
+
+GET {{DemandMgmt.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

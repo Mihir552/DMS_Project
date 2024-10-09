@@ -1,0 +1,38 @@
+form{
+    font-size: 1.2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em 5em;
+    width: 70%;
+    border: 1px solid var(--accentColor);
+    border-radius: 10px;
+    padding: 10px;
+    justify-items: stretch;
+    align-items: center;
+    height: max-content;
+    padding: 1em;
+}
+
+.errorLabel {
+    color: red;
+}
+
+form select,
+form input {
+    border: 2.5px solid var(--accentColor);
+    border-radius: 0.5em;
+    min-height: 2em;
+    width: 99%;
+    justify-self: flex-start;
+}
+
+form input[type='checkbox']{
+    max-height: 2em;
+}
+
+form input[type='submit']{
+    grid-column: 2 / 3;
+    grid-row: 13 / 14;
+    /* align-self: center;
+    justify-self: center; */
+}

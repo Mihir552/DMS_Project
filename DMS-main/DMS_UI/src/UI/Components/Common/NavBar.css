@@ -1,0 +1,68 @@
+.NavBar{
+    width: 100%;
+    min-height: 4em;
+    background-image: linear-gradient(119deg, var(--primaryColor), var(--accentColor));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+
+}
+
+/* .NavBar span{
+    display: flex;
+    width: 100%;
+} */
+
+.brand{
+    font-size: 1.5em;
+    color: white;
+    justify-content: start;
+    margin: 1em;
+    cursor: pointer;
+    user-select: none;
+}
+
+.NavButtons{
+    margin-right: 2em;
+    justify-content: end;
+}
+
+.NavButtons svg{
+    stroke: white;
+    fill: white;
+    stroke-width: 10px;
+    width: 1.5em;
+    cursor: pointer;
+}
+
+
+.NavLinks{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+.NavLinks a{
+    text-decoration: inherit;
+    font-weight: bold;
+    color: white;
+    font-size: 1.1em;
+    width: auto;
+}
+
+.highlighIcon{
+    position: absolute;
+    border-radius: 50%;
+    background-color: var(--dangerColor);
+    height: 1.5em;
+    width: 1.8em;
+    justify-items: center;
+    font-size: small;
+    transform: translateY(-7px);
+    text-align: center;
+    padding-top: 3px;
+    color: var(--primaryColor);
+}
